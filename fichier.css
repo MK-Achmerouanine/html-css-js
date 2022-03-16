@@ -1,0 +1,38 @@
+:root{
+    --html: orange;
+    --css: blue;
+    --js: rgb(121, 121, 0);
+    --alert: rgb(255, 0, 0);
+}
+
+#html > h2 > span,
+#html > p:hover,
+#html > h1{
+    color: var(--html);
+}
+#html > p {
+    text-align: justify;
+}
+#css > h2 > span,
+#css > p:hover,
+#css > h1{
+    color: var(--css);
+}
+#css > p {
+    text-align: justify;
+}
+#js > h2 > span,
+#js > p:hover,
+#js > h1{
+    color: var(--js);
+}
+#js > p {
+    text-align: justify;
+}
+.alert{
+    border: 1px solid var(--alert);
+    padding: 3rem;
+    background-color: rgba(255,0,0,.15);
+    color: var(--alert);
+    font-weight: bolder;
+}
